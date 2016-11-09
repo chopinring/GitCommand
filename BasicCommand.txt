@@ -46,6 +46,7 @@
   ssh-keygen -t rsa -C "youremail@example.com"
 
 15.推送本地库的内容到远程库（实质：把当前分支推送到远程，默认为master）
+  git remote add origin https://www.github.com/chopinring/JS_Project
   git push -u origin master 
   **********第一次推送时需要加上 -u 参数，把远程库和本地库关联起来，后续推送则不需要**********
   **********第一次推送时还需要输入用户名和密码进行验证***********
