@@ -10,6 +10,7 @@
 
 4.提交文件到版本库
   git commit -m "这里是注释信息。"
+  git commit -a -m "删除文件后提交的备注信息"
 
 5.查看是否存在文件还未提交
   git status
